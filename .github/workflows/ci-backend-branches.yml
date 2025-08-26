@@ -1,12 +1,11 @@
 name: CI Back-end
 
 on:
-  push:               # executa em todo push na branch 'main'
+  push:
     branches:
       - 'main'
     paths:
       - 'sgcmapi/**'
-  workflow_dispatch:  # executa de forma manual
 
 jobs:
   build:
