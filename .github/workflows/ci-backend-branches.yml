@@ -8,6 +8,9 @@ on:
     paths:
       - 'sgcmapi/**'
   workflow_dispatch:  # executa de forma manual
+  pull_request:
+    paths:
+      - 'sgcmapi/**'  # executa quando um pull request para sgcmapi for aberto
 
 jobs:
   build:
