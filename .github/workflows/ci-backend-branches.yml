@@ -1,4 +1,4 @@
-name: CI Back-end
+name: CI Back-end Workflow
 
 on:
   push:               # executa em todo push na branch 'main'
